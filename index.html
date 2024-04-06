@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Order Summary Component</title>
+  </head>
+  <body class="font-Red-Hat">
+    <div
+      class="flex justify-center items-center min-h-screen text-center bg-[url('/images/pattern-background-desktop.svg')] mobile:bg-[url('/images/pattern-background-mobile.svg')] bg-no-repeat bg-pale-blue"
+    >
+      <section class="w-[450px] bg-white rounded-b-lg mobile:w-[315px]">
+        <img
+          src="./images/illustration-hero.svg"
+          alt="hero image"
+          class="rounded-t-lg"
+        />
+        <h1
+          class="text-2xl text-dark-blue font-bold pt-10 pb-4 mobile:text-[20px] mobile:pt-5"
+        >
+          Order Summary
+        </h1>
+        <p class="text-desaturated-blue px-12 mobile:text-[14px]">
+          You can now listen to millions of songs, audiobooks, and podcasts on
+          any device anywhere you like!
+        </p>
+        <div
+          class="flex justify-between items-center w-[360px] bg-very-pale-blue px-8 py-5 m-auto rounded-lg mt-4 mb-7 text-[14px] mobile:w-[275px] mobile:px-4 mobile:py-3"
+        >
+          <div class="flex mobile:text-[14px]">
+            <img src="./images/icon-music.svg" alt="music" />
+            <div class="pl-4">
+              <h3 class="font-bold text-dark-blue">Annual Plan</h3>
+              <p class="text-desaturated-blue font-[600]">$59.99/year</p>
+            </div>
+          </div>
+          <a
+            href="#"
+            class="text-bright-blue font-bold cursor-pointer underline block hover:opacity-[0.6] focus-visible:opacity-[0.6] mobile:text-[14px]"
+            >Change</a
+          >
+        </div>
+        <button
+          class="w-[360px] bg-bright-blue text-white text-[14px] font-bold py-[10px] rounded-lg shadow-outerBox hover:opacity-[0.6] focus-visible:opacity-[0.6] mobile:w-[275px]"
+        >
+          Proceed to Payment
+        </button>
+        <a
+          href="#"
+          class="block mt-8 mb-8 text-[14px] text-desaturated-blue font-bold hover:text-dark-blue focus-visible:text-dark-blue"
+          >Cancel Order</a
+        >
+      </section>
+    </div>
+  </body>
+</html>
